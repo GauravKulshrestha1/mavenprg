@@ -8,6 +8,27 @@
   <name>MyWebApp Maven Webapp</name>
   <url>http://maven.apache.org</url>
   <dependencies>
+    <build>
+    <!-- To define the plugin version in your parent POM -->
+    <pluginManagement>
+      <plugins>
+        <plugin>
+          <groupId>org.apache.maven.plugins</groupId>
+          <artifactId>maven-war-plugin</artifactId>
+          <version>3.3.2</version>
+        </plugin>
+        
+         <plugins>
+      <plugin>
+        <groupId>org.apache.maven.plugins</groupId>
+        <artifactId>maven-war-plugin</artifactId>
+        <version>3.3.2</version>
+      </plugin>
+      ...
+    </plugins>
+  </build>
+      </plugins>
+    </pluginManagement>
     <dependency>
       <groupId>junit</groupId>
       <artifactId>junit</artifactId>
