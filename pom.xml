@@ -20,27 +20,18 @@
     <artifactId>servlet-api</artifactId>
     <version>2.5</version>
     <scope>provided</scope>
-      <plugins>
-       <plugin>
-                <groupId>org.apache.maven.plugins</groupId>
-                <artifactId>maven-compiler-plugin</artifactId>
-                <version>3.1</version>
-                <configuration>
-                    <source>1.7</source>
-                    <target>1.7</target>
-                </configuration>
-<pluginManagement>
-  <plugins>
-    <plugin>
-      <artifactId>maven-war-plugin</artifactId>
-      <version>3.2.2</version>
-    </plugin>
-  </plugins>
-</pluginManagement>
-    
+     
 </dependency>
   </dependencies>
   <build>
     <finalName>MyWebApp</finalName>
+    <pluginManagement>
+      <plugins>
+        <plugin>
+          <groupId>org.apache.maven.plugins</groupId>
+          <artifactId>maven-war-plugin</artifactId>
+          <version>3.3.2</version>
+        </plugin>
+     </pluginManagement>
   </build>
 </project>
