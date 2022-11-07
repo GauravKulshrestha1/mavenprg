@@ -8,7 +8,6 @@
   <name>MyWebApp Maven Webapp</name>
   <url>http://maven.apache.org</url>
   <parent>
-    <artifactId>maven-plugins</artifactId>
     <groupId>org.apache.maven.plugins</groupId>
     <version>34</version>
     <relativePath />
