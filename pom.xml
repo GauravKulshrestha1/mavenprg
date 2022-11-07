@@ -7,6 +7,16 @@
   <version>0.0.1-SNAPSHOT</version>
   <name>MyWebApp Maven Webapp</name>
   <url>http://maven.apache.org</url>
+  <parent>
+    <artifactId>maven-plugins</artifactId>
+    <groupId>org.apache.maven.plugins</groupId>
+    <version>34</version>
+    <relativePath />
+  </parent>
+
+  <artifactId>maven-war-plugin</artifactId>
+  <version>3.3.2</version>
+  <packaging>maven-plugin</packaging>
  
   
   <dependencies>
